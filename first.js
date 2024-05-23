@@ -1,4 +1,4 @@
 var a =2;
 let b=5;
-print("vennilavan");
-print(a+b);
+console.log(a+b)
+console.log("vennilavan")
