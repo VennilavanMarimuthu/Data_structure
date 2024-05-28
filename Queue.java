@@ -4,7 +4,7 @@ public class Queue{
     int front;
     int capacity;
    
-    private final static int def=10;
+    protected final static int def=10;
 
     public Queue(){
         this(def);
