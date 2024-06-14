@@ -39,8 +39,7 @@ public class LinkedList {
             Exception e=new Exception("invalid index");
             throw e;
         }
-       
-
+    
        if(index==0) addFirst(data);
 
        else if (index==size) addLast(data);
@@ -51,16 +50,16 @@ public class LinkedList {
 
         Node temp=head;
         for(int i=0;i<index-1;i++){
-           temp=temp.next;
+        temp=temp.next;
         }
  
-          n.next=temp.next;
-          temp.next=n;
- 
-          size++;
-       }
+        n.next=temp.next;
+        temp.next=n;
 
-       
+        size++;
+    }
+
+
     }
 
     public int removeFirst() throws Exception{
@@ -77,7 +76,7 @@ public class LinkedList {
         int output=tail.data;
         Node temp=head;
         while (temp.next!=tail) {
-              temp=temp.next;
+            temp=temp.next;
         }
         tail=temp;
         tail.next=null;
