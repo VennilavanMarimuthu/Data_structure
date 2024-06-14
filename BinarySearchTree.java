@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class BinarySearchTree {
     NodeTree root;
     public BinarySearchTree(){
