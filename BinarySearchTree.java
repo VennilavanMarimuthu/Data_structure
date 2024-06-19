@@ -25,7 +25,6 @@ class BinarySearchTree {
         }
         return root2;
     }
-
     public void display(){
         inOrderDisplay(root);
         System.out.println();
